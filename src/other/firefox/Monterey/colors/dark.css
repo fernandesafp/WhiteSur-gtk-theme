@@ -98,9 +98,9 @@
 	--gnome-private-urlbar-background: #25003e;
 
 	/* Tabs */
-	--gnome-tabbar-tab-background: #1e1e1e;
+	--gnome-tabbar-tab-background: #282828;
 	--gnome-tabbar-tab-color: rgb(141, 144, 145);
-	--gnome-tabbar-tab-hover-background: #282828;
+	--gnome-tabbar-tab-hover-background: #464646;
 	--gnome-tabbar-tab-hover-border-bottom-color: #282828;
 	--gnome-tabbar-tab-hover-color: rgb(200, 200, 200);
 	--gnome-tabbar-tab-active-background: #282828;
@@ -109,7 +109,7 @@
 	--gnome-tabbar-tab-active-hover-background: #282828;
 	--gnome-inactive-tabbar-tab-color: rgb(141, 144, 145);
 	--gnome-inactive-tabbar-tab-background: #1e1e1e;
-	--gnome-inactive-tabbar-tab-active-background: #1e1e1e;
+	--gnome-inactive-tabbar-tab-active-background: #282828;
 	--gnome-inactive-tabbar-tab-active-border-bottom-color: var(--gnome-tabbar-tab-active-border-bottom-color);
 	--gnome-inactive-tabbar-tab-active-color: var(--gnome-inactive-tabbar-tab-color);
 	--gnome-tab-attention-icon-color: #718be8;
