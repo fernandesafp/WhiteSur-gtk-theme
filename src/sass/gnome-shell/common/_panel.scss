@@ -68,7 +68,7 @@ $panel_height: $menuitem_size;
 
 %apple_activites {
   -natural-hpadding: $base_padding * 2;
-  background-image: url("assets/activities.svg");
+  /*background-image: url("assets/activities.svg");*/
   background-position: center center;
   background-size: 24px 24px;
   width: 24px;
@@ -79,11 +79,14 @@ $panel_height: $menuitem_size;
   > * { width: $medium_size; }
 
   StBoxLayout {
-    spacing: 0;
+    spacing: 5px;
   }
 
   .workspace-dot {
-    background-color: transparent;
+    border-radius: 999px;
+    background-color: #f2f2f2;
+    min-width: 8px;
+    min-height: 8px;
   }
 
   &:active, &:overview, &:focus, &:checked {
